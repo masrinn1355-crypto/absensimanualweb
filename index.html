@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fireburn - Sistem Absensi Kelas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="desktop-bg">
+    <div class="win98-window login-window">
+      <div class="win98-titlebar">
+        <span>Create an Acount</span>
+        <button
+          type="button"
+          class="win98-close-btn"
+          onclick="alert('Tutup jendela?')"
+        >
+          X
+        </button>
+      </div>
+
+      <div class="win98-body">
+        <div class="brand-header">
+          <div class="fire-icon">🔥</div>
+          <div class="brand-text">
+            <small>BY BIAS1998</small>
+            <h1>Fireburn</h1>
+          </div>
+        </div>
+
+        <form action="index.php" method="POST">
+          <div class="form-group">
+            <label for="username">CREATE YOUR NAME</label>
+            <div class="win98-textbox-header">
+              <span class="mini-icon">📄</span>
+            </div>
+            <textarea
+              id="username"
+              name="username"
+              class="win98-input win98-textarea"
+              rows="3"
+              required
+            >
+Admin Kelas</textarea
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="password">PASSWORD:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="win98-input"
+              value="12345678"
+              required
+            />
+          </div>
+
+          <div class="win98-actions">
+            <button type="submit" name="login" class="win98-btn">Ok</button>
+            <button type="reset" class="win98-btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
